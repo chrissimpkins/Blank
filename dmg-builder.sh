@@ -12,3 +12,10 @@
 --app-drop-link 600 185 \
 Blank-Installer.dmg \
 /Users/ces/Desktop/code/Blank/bin
+
+mv Blank-Installer.dmg installer/Blank-Installer.dmg
+
+# create checksum file for the installer
+cd installer || exit 1
+shasum Blank-Installer.dmg > Blank-Installer-checksum.txt
+shasum -c Blank-Installer-checksum.txt
