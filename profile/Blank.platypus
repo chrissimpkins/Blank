@@ -11,7 +11,9 @@
 	<key>Author</key>
 	<string>Christopher Simpkins</string>
 	<key>BundledFiles</key>
-	<array/>
+	<array>
+		<string>/Users/ces/Desktop/code/Blank/docs/Credits.html</string>
+	</array>
 	<key>Creator</key>
 	<string>Platypus-5.2</string>
 	<key>DeclareService</key>
@@ -264,6 +266,6 @@
 	<key>UseXMLPlistFormat</key>
 	<false/>
 	<key>Version</key>
-	<string>1.0</string>
+	<string>1.0.0</string>
 </dict>
 </plist>
