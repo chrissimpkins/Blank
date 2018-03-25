@@ -1,5 +1,14 @@
 #!/usr/sh
 
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃  blank.sh                                                      ┃
+# ┃  Copyright 2018 Christopher Simpkins                           ┃
+# ┃  MIT License                                                   ┃
+# ┃                                                                ┃
+# ┃  Source: https://github.com/chrissimpkins/Blank                ┃
+# ┃                                                                ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 if [[ $# -eq 0 ]]; then
     echo "Icons OFF"
     echo "Icons ON"
